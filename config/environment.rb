@@ -12,4 +12,4 @@ ActionMailer::Base.smtp_settings = {
     :domain         => 'limitless-ravine-68473.herokuapp.com',
     :authentication => :plain,
 }
-ActionMailer::Base.deliver_method = :smtp
+ActionMailer::Base.delivery_method = :smtp
